@@ -1,0 +1,121 @@
+/* 
+
+REMEMBER TO: Update the README and attach it to the release notes section in Stylish! 
+
+Link to stylesheet: https://userstyles.org/styles/152032/dark-mongodb-docs-wip
+Link to README:     
+
+*/
+
+@-moz-document domain("docs.mongodb.com") {
+  .main {
+    background: #272b2f;
+    color: #e0e7e8;
+  }
+
+  .navbar {
+    background-color: #424950;
+  }
+
+  .navbar-dropdown {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .navbar-dropdown:hover {
+    color: #6eb846;
+  }
+
+  .navbar-dropdown__menu {
+    background-color: #212328;
+  }
+
+  .menu__item {
+    border-top: 1px solid #282b30;
+  }
+
+  .navbar-brand {
+    content: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png);
+  }
+
+  .navbar-links__item {
+    color: #6fbb46;
+  }
+
+  .navbar-lines__item:hover {
+    color: #f1f1f1;
+  }
+
+  .navbar-search {
+    background-color: #373d42 !important;
+  }
+
+  .main__sidebar {
+    border-right: none;
+  }
+
+  .title {
+    border-bottom: 1px solid #424950;
+  }
+
+  hr {
+    border-top: 1px solid #424950;
+  }
+
+  .toc__item {
+    border: none;
+  }
+
+  .toc__link {
+    color: #757f8a;
+  }
+
+  .toc__link--nested {
+    font-weight: 900;
+  }
+
+  .toc__link--active {
+    background-color: #2e3238;
+  }
+
+  .toc__item:last-child {
+    border: none;
+  }
+
+  .card {
+    border-radius: 7px;
+    background-color: #202327;
+  }
+
+  /* Text Styling */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  .block__body {
+    color: #9aa1a9;
+  }
+
+  a:hover {
+    color: #77c34e;
+    text-decoration: none;
+  }
+
+  a.navbar-download__text:hover {
+    color: #fff;
+  }
+
+  .menu__item a {
+    color: #65a93f;
+  }
+
+  li.menu__item:hover {
+    background-color: #272b2f;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .menu__item:last-child {
+    border-bottom: none;
+  }
+}
