@@ -3,5 +3,5 @@ Stylesheet used for Dark MongoDB Docs, the Stylish theme. This theme will be slo
 
 ## Changelog
 
-- November 27, 2017 (v0.1): 
+November 27, 2017 (v0.1): 
   - Initial push to Stylish
