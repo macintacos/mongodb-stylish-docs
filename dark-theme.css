@@ -3,11 +3,16 @@
 REMEMBER TO: Update the README and attach it to the release notes section in Stylish! 
 
 Link to stylesheet: https://userstyles.org/styles/152032/dark-mongodb-docs-wip
-Link to README:     
+Link to README:     ./README.md
+LICENSE:            
 
 */
 
 @-moz-document regexp("^https?:\/\/((docs)\.)?((atlas)\.)?mongodb\.com.*") {
+  html {
+    background-color: #272b2f;
+  }
+
   .main {
     background: #272b2f;
     color: #e0e7e8;
@@ -27,6 +32,14 @@ Link to README:
 
   .navbar-dropdown__menu {
     background-color: #212328;
+  }
+
+  .navbar-dropdown__menu--hidden {
+    transition-duration: 0.3s;
+  }
+
+  .navbar-dropdown__menu--shown {
+    transition-duration: 0.7s;
   }
 
   .menu__item {
@@ -53,10 +66,45 @@ Link to README:
     border: 2px solid #535658;
     border-radius: 7px;
     background-color: #373e42;
+    color: white;
+  }
+
+  .tutorial-list-item {
+    border-radius: 7px;
+    padding: 15px 25px;
+    transition-duration: 0.4s;
+  }
+
+  .tutorial-list-item:first-child {
+    padding-top: 15px;
+  }
+
+  .tutorial-list-item:hover {
+    background-color: #131516;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+    transition: background-color 0.4s ease-in-out, box-shadow 0.5s ease-in-out;
+  }
+
+  .tutorial-list-item__title {
+    color: #bfc7d1;
+    font-weight: 700;
+  }
+
+  .tutorial-list-item__snippet {
+    color: #afb6c0;
+    transition: color 0.4s ease-in-out;
+  }
+
+  .tutorial-list-item:hover .tutorial-list-item__title {
+    color: #5ea839;
   }
 
   .main__sidebar {
     border-right: none;
+  }
+
+  aside.main__sidebar {
+    background-color: #30363a;
   }
 
   .title {
@@ -90,6 +138,20 @@ Link to README:
   .card {
     border-radius: 7px;
     background-color: #202327;
+  }
+
+  .button {
+    color: #d5d5d5;
+    background-color: #232629;
+    border-radius: 5px;
+  }
+
+  .button--active {
+    color: #fff !important;
+  }
+
+  .button:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
   }
 
   /* Text Styling */
