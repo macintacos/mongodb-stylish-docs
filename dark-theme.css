@@ -7,7 +7,7 @@ Link to README:
 
 */
 
-@-moz-document domain("docs.mongodb.com") {
+@-moz-document regexp("^https?:\/\/((docs)\.)?((atlas)\.)?mongodb\.com.*") {
   .main {
     background: #272b2f;
     color: #e0e7e8;
@@ -47,6 +47,12 @@ Link to README:
 
   .navbar-search {
     background-color: #373d42 !important;
+  }
+
+  .tutorial-search {
+    border: 2px solid #535658;
+    border-radius: 7px;
+    background-color: #373e42;
   }
 
   .main__sidebar {
