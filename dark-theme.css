@@ -11,7 +11,8 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     background-color: #272b2f;
   }
 
-  .main {
+  .main,
+  body {
     background: #272b2f;
     color: #e0e7e8;
   }
@@ -123,6 +124,7 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
 
   .tab-strip {
     background-color: #272b2f;
+    margin-bottom: 0px;
   }
 
   .tab-strip__element {
@@ -200,6 +202,106 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     background-color: #30363a;
   }
 
+  /* SERVER DOCS */
+
+  .content {
+    background: #272b2f;
+  }
+
+  .content .main-column {
+    margin: 40px 50px;
+  }
+
+  .docutils {
+    color: #cdcdcd;
+  }
+
+  table.docutils td,
+  table.docutils th {
+    border-color: #424950;
+  }
+
+  .admonition-instructor,
+  .admonition.admonition-platform-support,
+  .admonition.admonition-tip,
+  .admonition.note,
+  .admonition.tip,
+  .admonition.important,
+  .admonition.warning {
+    background-color: #3a4046;
+  }
+
+  .admonition.admonition-example {
+    background-color: #4c545d;
+    padding: 20px;
+    border-radius: 7px;
+    color: #cdcdcd;
+  }
+
+  .admonition-see.admonition,
+  .alert-info {
+    background-color: #4c545d;
+    border-left: 3px solid #428bca !important;
+    padding-top: 5px !important;
+  }
+
+  div.sphinxsidebarwrapper {
+    background-color: #272b2f;
+  }
+
+  div.sphinxsidebarwrapper a {
+    color: #cdcdcd;
+  }
+
+  .sphinxsidebarwrapper > ul > .toctree-l1 {
+    border: 1px solid #424950;
+    color: #cdcdcd;
+    padding: 15px 0;
+  }
+
+  .sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a {
+    background-color: #42494f;
+  }
+
+  .sphinxsidebarwrapper > ul > .toctree-l1:last-child {
+    border-bottom-color: #42494f;
+  }
+
+  li.current.selected-item.toctree-l1 {
+    border-right: 3px solid #77c34e;
+  }
+
+  .dropdown-menu {
+    background-color: #424950;
+  }
+
+  #closeNav {
+    color: #cdcdcd !important;
+  }
+
+  #on-this-page {
+    background-color: #272b2f;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid #424950;
+  }
+
+  .icon-edit:before {
+    color: #7d7c7c;
+  }
+
+  .figure {
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #cdcdcd;
+    max-width: 700px;
+  }
+
+  div.body div.bc {
+    background-color: #272b2f;
+  }
+
   /* OTHER */
 
   .title {
@@ -266,11 +368,21 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
   .copy-button {
     background-color: #7bc552;
     border: 1px solid #7bc552;
-    border-radius: 0 5px 0 5px;
+    border-radius: 0 0 0 5px;
+  }
+
+  .version-button,
+  .caret {
+    color: #cdcdcd;
+  }
+
+  .caret {
+    border-top: 4px solid #fff;
   }
 
   /* Text Styling */
-  h1 {
+  h1,
+  div.body h1 {
     color: #d5d5d5;
     font-weight: 700;
     -webkit-margin-before: 1em;
@@ -279,7 +391,11 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  div.body h2,
+  div.body h3,
+  div.body h4,
+  div.body h5 {
     color: #d5d5d5;
     font-weight: 700;
     -webkit-margin-before: 1.5em;
@@ -299,10 +415,39 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     font-family: "Menlo", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
   }
 
+  code.descclassname,
+  code.descname,
+  tt.descclassname,
+  tt.descname {
+    color: #cdcdcd;
+    font-weight: 700;
+  }
+
   .single .highlight pre {
     background-color: #30383c;
     border: solid 1px #2b3033;
     border-left: 5px solid #bcced4;
+  }
+
+  table.docutils tbody tr td div.highlight pre {
+    background-color: #272b2f;
+    color: #cdcdcd;
+  }
+
+  .highlight .s1,
+  .highlight .s2,
+  .highlight .s {
+    color: #389cff;
+  }
+
+  .highlight .kc,
+  .highlight .k,
+  .highlight .na {
+    color: #04a732;
+  }
+
+  .highlight .c1 {
+    color: #adadad;
   }
 
   .single .highlight .s2 {
@@ -317,14 +462,30 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     color: #01c339;
   }
 
-  a {
+  a,
+  div.body div.bc ul li a {
+    color: #77c34e;
     transition-duration: 0.2s;
     text-decoration: none;
+  }
+
+  a.headerlink {
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    transition-duration: 0.2s;
   }
 
   a:hover {
     color: #77c34e;
     text-decoration: none;
+  }
+
+  a.headerlink:hover {
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    transition-duration: 0.2s;
   }
 
   a.navbar-download__text:hover {

@@ -18,3 +18,5 @@ November 27, 2017 (v0.1):
   view, etc.) please let me know by
   [filing an issue](https://github.com/macintacos/mongodb-stylish-docs/issues)
   and linking to the page.
+* Currently working on completely revamping the code view, as it's still
+  essentially in the white theme. Don't like it at all. Will change soon.
