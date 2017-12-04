@@ -8,6 +8,15 @@ the site. If you'd like to follow progress, trello board is below
 
 ## Changelog
 
+December 4, 2017 (v0.3):
+
+* Fixed some highlighting issues for code parameter explanations
+
+November 28, 2017 (v0.2):
+
+* Updated table layout
+* Added 'cloudmanager' & 'opsmanager' to the regex matcher
+
 November 27, 2017 (v0.1):
 
 * Initial push to Stylish

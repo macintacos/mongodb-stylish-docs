@@ -6,221 +6,188 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 */
 
-@-moz-document regexp("^https?:\/\/((docs)\.)?((atlas)\.)?mongodb\.com.*") {
+@-moz-document regexp("^https?:\/\/((docs)\.)?((atlas|cloudmanager|opsmanager)\.)?mongodb\.com.*") {
   html {
     background-color: #272b2f;
   }
-
   .main,
   body {
     background: #272b2f;
     color: #e0e7e8;
   }
-
   /* NAVBAR */
-
   .navbar {
     background-color: #424950;
   }
-
   .navbar-dropdown {
     color: rgba(255, 255, 255, 0.6);
   }
-
   .navbar-dropdown:hover {
     color: #6eb846;
   }
-
   .navbar-brand {
     content: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png);
   }
-
   .navbar-links__item {
     color: #6fbb46;
   }
-
   .navbar-lines__item:hover {
     color: #f1f1f1;
   }
-
   /* MAIN DROPDOWN MENU */
-
   .navbar-dropdown__menu {
     background-color: #131516;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
   }
-
   .navbar-dropdown__menu--hidden {
     transition-duration: 0.3s;
   }
-
   .navbar-dropdown__menu--shown {
     transition-duration: 0.25s;
     border-radius: 0px 0px 10px 10px;
   }
-
   .menu__item {
     border-top: 1px solid #282b30;
   }
-
   .menu__item a {
     color: #65a93f;
   }
-
   li.menu__item:hover {
     color: #d5d5d5;
     background-color: #272b2f;
     transition: background-color 0.2s ease-in-out;
   }
-
   .menu__item:last-child {
     border-bottom: none;
     border-radius: 0px 0px 10px 10px;
   }
-
-  .submenu__item > a:hover {
+  .submenu__item>a:hover {
     color: #d5d5d5;
   }
-
   /* GLOBAL SEARCH */
-
   .navbar-search {
     color: #d5d5d5;
     background-color: #373d42 !important;
   }
-
   .marian--shown {
     background-color: #272b2f;
   }
-
   .marian__heading,
   .marian-title {
     color: #9aa1a9;
     font-weight: 700;
   }
-
   .marian-preview {
     color: #808080;
   }
-
   .marian .tab-strip__element {
     width: 200px;
   }
-
   .marian-results {
     background-color: #131516;
     border-radius: 0px 10px 10px 10px;
     margin-top: 0px;
     padding: 20px 0px 15px 20px;
   }
-
   .marian-result {
     padding-right: 32px;
   }
-
   .spinner {
     background-color: #272b2f;
   }
-
   .tab-strip {
     background-color: #272b2f;
     margin-bottom: 0px;
   }
-
   .tab-strip__element {
     border-radius: 7px 7px 0 0;
   }
-
   .tab-strip__element[aria-selected="true"] {
     background-color: #599e38;
     color: #d5d5d5;
     border: 0.5px solid #599e38;
   }
-
   .tab-strip__element[aria-selected="true"]:hover {
     background-color: #599e38;
     color: #d5d5d5;
     border: 0.5px solid #599e38;
   }
-
   .tab-strip__element[aria-selected="false"] {
     background-color: #3b4047;
     border: 0.5px solid #3b4047;
     transition-duration: 0.2s;
   }
-
   .tab-strip__element[aria-selected="false"]:hover {
     background-color: #131516;
     border: 0.5px solid #131516;
     transition: all 0.2s ease-in-out;
   }
-
   /* TUTORIAL PAGE */
-
   .tutorial-search {
     border: 2px solid #535658;
     border-radius: 7px;
     background-color: #373e42;
     color: white;
   }
-
   .tutorial-list-item {
     border-radius: 7px;
     padding: 15px 25px;
     transition-duration: 0.25s;
   }
-
   .tutorial-list-item:first-child {
     padding-top: 15px;
   }
-
   .tutorial-list-item:hover {
     background-color: #131516;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
     transition: background-color 0.25s ease-in-out, box-shadow 0.3s ease-in-out;
   }
-
   .tutorial-list-item__title {
     color: #bfc7d1;
     font-weight: 700;
   }
-
   .tutorial-list-item__snippet {
     color: #afb6c0;
     transition: color 0.25s ease-in-out;
   }
-
   .tutorial-list-item:hover .tutorial-list-item__title {
     color: #5ea839;
   }
-
   .main__sidebar {
     border-right: none;
   }
-
   aside.main__sidebar {
     background-color: #30363a;
   }
-
-  /* SERVER DOCS */
-
+  /* OTHER DOCS SECTIONS */
   .content {
     background: #272b2f;
   }
-
   .content .main-column {
     margin: 40px 50px;
   }
-
   .docutils {
     color: #cdcdcd;
   }
-
-  table.docutils td,
+  table.docutils.compatibility>thead th.head {
+    background-color: #5ea839;
+  }
+  th.head.stub,
+  th.stub {
+    color: white !important;
+    background-color: #3a4046 !important;
+  }
+  table.docutils td {
+    border-color: #424950;
+    color: #5ea839;
+  }
   table.docutils th {
     border-color: #424950;
   }
-
+  .highlighted,
+  dt:target {
+    background-color: #52A12E;
+  }
   .admonition-instructor,
   .admonition.admonition-platform-support,
   .admonition.admonition-tip,
@@ -230,66 +197,53 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
   .admonition.warning {
     background-color: #3a4046;
   }
-
   .admonition.admonition-example {
-    background-color: #4c545d;
+    background-color: #3a4046;
     padding: 20px;
     border-radius: 7px;
     color: #cdcdcd;
   }
-
   .admonition-see.admonition,
   .alert-info {
     background-color: #4c545d;
     border-left: 3px solid #428bca !important;
     padding-top: 5px !important;
   }
-
   div.sphinxsidebarwrapper {
     background-color: #272b2f;
   }
-
   div.sphinxsidebarwrapper a {
     color: #cdcdcd;
   }
-
-  .sphinxsidebarwrapper > ul > .toctree-l1 {
+  .sphinxsidebarwrapper>ul>.toctree-l1 {
     border: 1px solid #424950;
     color: #cdcdcd;
     padding: 15px 0;
   }
-
-  .sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a {
+  .sphinxsidebarwrapper .toctree-l1 li.current.selected-item>a {
     background-color: #42494f;
   }
-
-  .sphinxsidebarwrapper > ul > .toctree-l1:last-child {
+  .sphinxsidebarwrapper>ul>.toctree-l1:last-child {
     border-bottom-color: #42494f;
   }
-
   li.current.selected-item.toctree-l1 {
     border-right: 3px solid #77c34e;
   }
-
   .dropdown-menu {
     background-color: #424950;
   }
-
   #closeNav {
     color: #cdcdcd !important;
   }
-
   #on-this-page {
     background-color: #272b2f;
     padding: 20px;
     border-radius: 7px;
     border: 1px solid #424950;
   }
-
   .icon-edit:before {
     color: #7d7c7c;
   }
-
   .figure {
     margin: auto;
     padding: 15px;
@@ -297,89 +251,68 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     background-color: #cdcdcd;
     max-width: 700px;
   }
-
   div.body div.bc {
     background-color: #272b2f;
   }
-
   /* OTHER */
-
   .title {
     border-bottom: 1px solid #424950;
   }
-
   .single {
     padding: 0 40px 40px 40px;
   }
-
   hr {
     border-top: 1px solid #424950;
   }
-
   .toc__item {
     border: none;
   }
-
   .toc__link {
     color: #757f8a;
   }
-
   .toc__link--nested {
     font-weight: 900;
   }
-
   .toc__link--active {
     background-color: #2e3238;
   }
-
   .toc__item:last-child {
     border: none;
   }
-
   .card {
     border-radius: 7px;
     background-color: #202327;
   }
-
   .card:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
   }
-
   .card__title {
     margin-top: 0px;
   }
-
   /* BUTTONS */
-
   .button {
     color: #d5d5d5;
     background-color: #232629;
     border-radius: 5px;
   }
-
   .button--active {
     color: #fff !important;
   }
-
   .button:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
   }
-
   .copy-button {
     background-color: #7bc552;
     border: 1px solid #7bc552;
     border-radius: 0 0 0 5px;
   }
-
   .version-button,
   .caret {
     color: #cdcdcd;
   }
-
   .caret {
     border-top: 4px solid #fff;
   }
-
   /* Text Styling */
   h1,
   div.body h1 {
@@ -387,7 +320,6 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     font-weight: 700;
     -webkit-margin-before: 1em;
   }
-
   h2,
   h3,
   h4,
@@ -400,21 +332,17 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     font-weight: 700;
     -webkit-margin-before: 1.5em;
   }
-
   .single h1 {
     border-bottom: 1px solid #424950;
   }
-
   p,
   .block__body {
     color: #cdcdcd;
   }
-
   code {
     font-weight: 700;
     font-family: "Menlo", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
   }
-
   code.descclassname,
   code.descname,
   tt.descclassname,
@@ -422,72 +350,59 @@ LICENSE:            https://creativecommons.org/licenses/by-nc-sa/4.0/
     color: #cdcdcd;
     font-weight: 700;
   }
-
   .single .highlight pre {
     background-color: #30383c;
     border: solid 1px #2b3033;
     border-left: 5px solid #bcced4;
   }
-
   table.docutils tbody tr td div.highlight pre {
     background-color: #272b2f;
     color: #cdcdcd;
   }
-
   .highlight .s1,
   .highlight .s2,
   .highlight .s {
     color: #389cff;
   }
-
   .highlight .kc,
   .highlight .k,
   .highlight .na {
     color: #04a732;
   }
-
   .highlight .c1 {
     color: #adadad;
   }
-
   .single .highlight .s2 {
     color: #45b4ff;
   }
-
   .single .highlight .mi {
     color: #30bb76;
   }
-
   .single .highlight .kc {
     color: #01c339;
   }
-
   a,
   div.body div.bc ul li a {
     color: #77c34e;
     transition-duration: 0.2s;
     text-decoration: none;
   }
-
   a.headerlink {
     border-radius: 2px;
     margin-left: 5px;
     margin-bottom: 2px;
     transition-duration: 0.2s;
   }
-
   a:hover {
     color: #77c34e;
     text-decoration: none;
   }
-
   a.headerlink:hover {
     border-radius: 2px;
     margin-left: 5px;
     margin-bottom: 2px;
     transition-duration: 0.2s;
   }
-
   a.navbar-download__text:hover {
     color: #fff;
   }
