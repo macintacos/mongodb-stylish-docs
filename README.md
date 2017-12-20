@@ -6,6 +6,11 @@ the site. If you'd like to follow progress, trello board is below
 
 **Trello Board**: https://trello.com/b/RYD4TRRs
 
+December 20, 2017 (v0.4):
+
+* Fixed the Stitch iOS API docs, still needs a tad more work related to code blocks (coming in future update)
+* Other minor updates
+
 ## Changelog
 
 December 4, 2017 (v0.3):
