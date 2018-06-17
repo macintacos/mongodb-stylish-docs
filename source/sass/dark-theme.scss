@@ -1,0 +1,282 @@
+// IMPORTS
+@import "colors";
+@import "typography";
+@import "code-blocks";
+@import "nav";
+@import "search";
+@import "stitch";
+
+// OTHER
+.button:hover,
+.card:hover,
+.navbar-dropdown__menu,
+.sidebar,
+.tutorial-list-item:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+html {
+  background-color: $main-background-color;
+}
+
+.main,
+.main-content,
+body {
+  font-family: $system-default-font;
+  background: $main-background-color;
+  color: $main-text-color;
+}
+
+.sidebar {
+  border: 1px solid $main-background-color;
+}
+
+.nav-groups {
+  background: $main-background-color;
+}
+
+.nav-group-name {
+  border-bottom: 1px dotted $admonition-background-color;
+}
+
+.nav-group-name > a {
+  color: $mongodb-green;
+}
+
+.main__sidebar {
+  border-right: none;
+}
+
+table.docutils {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  background-color: $section-wrapper-background-color;
+  margin: 10px;
+  border-radius: 5px;
+  border: 5px solid $section-wrapper-background-color;
+  border-style: none;
+  box-sizing: 0px;
+  td {
+    padding: 17px;
+    border-color: $dark-border-color;
+    &:nth-child(1) {
+      color: $mongodb-green;
+      font-weight: 700;
+    }
+    span.pre {
+      font-weight: 700;
+      color: $mongodb-green;
+    }
+  }
+  th {
+    padding: 12px 12px !important;
+    border-color: $dark-border-color;
+  }
+}
+
+aside.main__sidebar {
+  background-color: #30363a;
+}
+
+.content {
+  background: $main-background-color;
+}
+
+.content .main-column {
+  margin: 40px 50px;
+}
+
+.docutils {
+  color: $main-text-color;
+}
+
+table.docutils.compatibility > thead th.head {
+  background-color: $mongodb-green;
+}
+
+th.head.stub,
+th.stub {
+  color: #fff !important;
+  background-color: $admonition-background-color !important;
+}
+
+@keyframes fadeOutHighlight {
+  0% {
+    background-color: $mongodb-green;
+  }
+  100% {
+    background-color: $main-background-color;
+  }
+}
+
+.highlighted,
+dt:target {
+  animation: 3s ease-out 0s 1 fadeOutHighlight;
+  background-color: $main-background-color;
+}
+
+.admonition-instructor {
+  background-color: $admonition-background-color;
+}
+
+.admonition {
+  &.admonition-platform-support,
+  &.admonition-tip,
+  &.important,
+  &.note,
+  &.tip,
+  &.warning {
+    background-color: $admonition-background-color;
+  }
+  &.admonition-example {
+    background-color: $admonition-background-color;
+    padding: 20px;
+    border-radius: 7px;
+    color: $main-text-color;
+  }
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important;
+}
+
+.admonition-see.admonition,
+.alert-info {
+  background-color: $section-wrapper-background-color;
+  border-left: 3px solid #428bca !important;
+  padding-top: 5px !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important;
+}
+
+div.sphinxsidebarwrapper {
+  background-color: $main-background-color;
+  a {
+    color: $main-text-color;
+  }
+}
+
+.sphinxsidebarwrapper > ul > .toctree-l1 {
+  border: 1px solid $section-wrapper-background-color;
+  color: $main-text-color;
+  padding: 15px 0;
+}
+
+.sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a {
+  background-color: $section-wrapper-background-color;
+}
+
+.sphinxsidebarwrapper > ul > .toctree-l1:last-child {
+  border-bottom-color: $section-wrapper-background-color;
+}
+
+li.current.selected-item.toctree-l1 {
+  border-right: 3px solid $mongodb-green;
+}
+
+.dropdown-menu {
+  background-color: $dark-border-color;
+}
+
+#closeNav {
+  color: $main-text-color !important;
+}
+
+#on-this-page {
+  background-color: $main-background-color;
+  padding: 20px;
+  border-radius: 7px;
+  border: 1px solid $dark-border-color;
+}
+
+.icon-edit:before {
+  color: #7d7c7c;
+}
+
+.figure {
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: $main-text-color;
+  max-width: 700px;
+}
+
+div.body div.bc {
+  background-color: $main-background-color;
+}
+
+.main-content {
+  border: 1px solid $main-background-color;
+}
+
+.title {
+  border-bottom: 1px solid $dark-border-color;
+}
+
+.single {
+  padding: 0 40px 40px;
+}
+
+hr {
+  border-top: 1px solid $dark-border-color;
+}
+
+.toc__item,
+.toc__item:last-child {
+  border: none;
+}
+
+.toc__link {
+  color: $main-text-color;
+}
+
+.toc__link--nested {
+  font-weight: 900;
+}
+
+.toc__link--active {
+  background-color: #2e3238;
+}
+
+.main__cards {
+  .card {
+    margin: 15px 20px 15px 0;
+    padding: 25px 20px 15px 15px;
+    border-left-width: 10px;
+    border-left-color: $mongodb-darker-green;
+    border-left-style: solid;
+    .card__body {
+      color: $main-text-color-invert;
+    }
+  }
+}
+
+.card {
+  border-radius: 7px;
+  background-color: #202327;
+}
+
+.card__title {
+  margin-top: 0;
+  color: $mongodb-darker-green;
+}
+
+.button {
+  color: $main-text-color;
+  background-color: #232629;
+  border-radius: 5px;
+}
+
+.button--active {
+  color: #fff !important;
+}
+
+.copy-button {
+  background-color: $mongodb-green;
+  border: 1px solid $mongodb-green;
+  border-radius: 0 0 0 5px;
+}
+
+.caret,
+.version-button {
+  color: $main-text-color;
+}
+
+.caret {
+  border-top: 4px solid #fff;
+}

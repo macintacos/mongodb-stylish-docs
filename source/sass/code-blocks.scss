@@ -1,0 +1,85 @@
+.block__body,
+p {
+  color: $main-text-color;
+}
+
+code {
+  font-weight: 700;
+  font-family: $system-default-monospace;
+}
+
+.code-button {
+  background: $mongodb-green;
+  transition-duration: 0.2s;
+  border-radius: 5px;
+  &:hover {
+    background: $mongodb-darker-green;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.button-row {
+  border-radius: 0 5px 0 0;
+}
+
+code.descclassname,
+code.descname,
+tt.descclassname,
+tt.descname {
+  color: $main-text-color;
+  font-weight: 700;
+}
+
+.single {
+  .highlight {
+    pre {
+      background-color: #30383c;
+      border: 1px solid #2b3033;
+      border-left: 5px solid #bcced4;
+      font-family: $system-default-monospace;
+    }
+  }
+}
+
+pre,
+.pre {
+  font-family: $system-default-monospace;
+}
+
+.copyable-code-block {
+  .highlight {
+    background-color: $section-wrapper-background-color;
+  }
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+  color: #389cff;
+}
+
+.highlight .k,
+.highlight .kc,
+.highlight .na {
+  color: $mongodb-green;
+}
+
+.highlight .c1 {
+  color: #adadad;
+}
+
+.single .highlight .s2 {
+  color: #45b4ff;
+}
+
+.single .highlight .mi {
+  color: $mongodb-green;
+}
+
+.single .highlight .kc {
+  color: $mongodb-green;
+}
+
+.CodeMirror {
+  font-family: $system-default-monospace !important;
+}

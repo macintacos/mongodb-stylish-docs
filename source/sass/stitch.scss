@@ -1,0 +1,60 @@
+.card {
+  background-color: $card-light-green !important;
+  padding: 0px 15px;
+  border-color: transparent;
+  border-width: 0px;
+  border-left-color: $mongodb-darker-green;
+  border-left-width: 5px;
+  &.card-large {
+    padding: 0;
+  }
+}
+
+.card-image {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-content {
+  color: $main-text-color-invert;
+  p {
+    color: $main-text-color-invert;
+  }
+}
+
+// API Specifications
+
+%api-spec {
+  border: none !important;
+  padding: 0 15px 5px 15px !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important;
+}
+
+.apiref-resource__path {
+  font-weight: 700;
+}
+
+.apiref-resource {
+  @extend %api-spec;
+  &.apiref-resource--get {
+    background-color: $api-get-background-color;
+  }
+  &.apiref-resource--post {
+    background-color: $api-post-background-color;
+  }
+  &.apiref-resource--delete {
+    background-color: $api-delete-background-color;
+  }
+  &.apiref-resource--put {
+    background-color: $api-put-background-color;
+  }
+  &.apiref-resource--patch {
+    color: $main-text-color-invert;
+    background-color: $api-patch-background-color;
+    .apiref-resource__summary > p,
+    .apiref-resource__body h3,
+    .apiref-resource__body > p,
+    .apiref-resource__body p span.pre {
+      color: $main-text-color-invert;
+    }
+  }
+}

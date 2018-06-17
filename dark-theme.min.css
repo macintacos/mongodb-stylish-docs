@@ -1,1 +1,257 @@
-@-moz-document regexp("^https?:\/\/((docs)\.)?((atlas|cloudmanager|opsmanager)\.)?mongodb\.com.*"){.button:hover,.card:hover,.navbar-dropdown__menu,.sidebar,.tutorial-list-item:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,.35),0 2px 15px 0 rgba(0,0,0,.5)}html{background-color:#272b2f}.main,.main-content,body{background:#272b2f;color:#e0e7e8}.navbar{background-color:#424950}.navbar-dropdown{color:rgba(255,255,255,.6)}.navbar-dropdown:hover{color:#6eb846}.navbar-brand{content:url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png)}.navbar-links__item{color:#6fbb46}.navbar-lines__item:hover{color:#f1f1f1}#breadcrumbs{background-color:#383d41;padding-left:20px}.navbar-dropdown__menu{background-color:#131516}.navbar-dropdown__menu--hidden{transition-duration:.3s}.navbar-dropdown__menu--shown{transition-duration:.25s;border-radius:0 0 10px 10px}.menu__item{border-top:1px solid #282b30}.menu__item a{color:#65a93f}li.menu__item:hover{color:#d5d5d5;background-color:#272b2f;transition:background-color .2s ease-in-out}.menu__item:last-child{border-bottom:none;border-radius:0 0 10px 10px}.submenu__item>a:hover{color:#d5d5d5}.navbar-search{color:#d5d5d5;background-color:#373d42!important}.marian--shown{background-color:#272b2f}.marian-title,.marian__heading{color:#9aa1a9;font-weight:700}.marian-preview{color:grey}.marian .tab-strip__element{width:200px}.marian-results{background-color:#131516;border-radius:0 10px 10px;margin-top:0;padding:20px 0 15px 20px}.spinner,.tab-strip{background-color:#272b2f}.marian-result{padding-right:32px}.tab-strip{margin-bottom:0}.tab-strip__element{border-radius:7px 7px 0 0}.tab-strip__element[aria-selected=true],.tab-strip__element[aria-selected=true]:hover{background-color:#599e38;color:#d5d5d5;border:.5px solid #599e38}.tab-strip__element[aria-selected=false]{background-color:#3b4047;border:.5px solid #3b4047;transition-duration:.2s}.tab-strip__element[aria-selected=false]:hover{background-color:#131516;border:.5px solid #131516;transition:all .2s ease-in-out}.sidebar{border:1px solid #272b2f}.nav-groups{background:#272b2f}.nav-group-name{border-bottom:1px dotted #3a4046}.nav-group-name>a{color:#5ea839}.tutorial-search{border:2px solid #535658;border-radius:7px;background-color:#373e42;color:#fff}.tutorial-list-item{border-radius:7px;padding:15px 25px;transition-duration:.25s}.tutorial-list-item:first-child{padding-top:15px}.tutorial-list-item:hover{background-color:#131516;transition:background-color .25s ease-in-out,box-shadow .3s ease-in-out}.tutorial-list-item__title{color:#bfc7d1;font-weight:700}.tutorial-list-item__snippet{color:#afb6c0;transition:color .25s ease-in-out}.tutorial-list-item:hover .tutorial-list-item__title{color:#5ea839}.main__sidebar{border-right:none}table.docutils td,table.docutils th{border-color:#424950}aside.main__sidebar{background-color:#30363a}.content{background:#272b2f}.content .main-column{margin:40px 50px}.docutils{color:#cdcdcd}table.docutils.compatibility>thead th.head{background-color:#5ea839}th.head.stub,th.stub{color:#fff!important;background-color:#3a4046!important}table.docutils td{color:#5ea839}.highlighted,dt:target{background-color:#52a12e}.admonition-instructor,.admonition.admonition-platform-support,.admonition.admonition-tip,.admonition.important,.admonition.note,.admonition.tip,.admonition.warning{background-color:#3a4046}.admonition.admonition-example{background-color:#3a4046;padding:20px;border-radius:7px;color:#cdcdcd}.admonition-see.admonition,.alert-info{background-color:#4c545d;border-left:3px solid #428bca!important;padding-top:5px!important}div.sphinxsidebarwrapper{background-color:#272b2f}div.sphinxsidebarwrapper a{color:#cdcdcd}.sphinxsidebarwrapper>ul>.toctree-l1{border:1px solid #424950;color:#cdcdcd;padding:15px 0}.sphinxsidebarwrapper .toctree-l1 li.current.selected-item>a{background-color:#42494f}.sphinxsidebarwrapper>ul>.toctree-l1:last-child{border-bottom-color:#42494f}li.current.selected-item.toctree-l1{border-right:3px solid #77c34e}.dropdown-menu{background-color:#424950}#closeNav{color:#cdcdcd!important}#on-this-page{background-color:#272b2f;padding:20px;border-radius:7px;border:1px solid #424950}.icon-edit:before{color:#7d7c7c}.figure{margin:auto;padding:15px;border-radius:5px;background-color:#cdcdcd;max-width:700px}div.body div.bc{background-color:#272b2f}.main-content{border:1px solid #272b2f}.title{border-bottom:1px solid #424950}.single{padding:0 40px 40px}hr{border-top:1px solid #424950}.toc__item,.toc__item:last-child{border:none}.toc__link{color:#757f8a}.toc__link--nested{font-weight:900}.toc__link--active{background-color:#2e3238}.card{border-radius:7px;background-color:#202327}.card__title{margin-top:0}.button{color:#d5d5d5;background-color:#232629;border-radius:5px}.button--active{color:#fff!important}.copy-button{background-color:#7bc552;border:1px solid #7bc552;border-radius:0 0 0 5px}.caret,.version-button{color:#cdcdcd}.caret{border-top:4px solid #fff}div.body h1,h1{color:#d5d5d5;font-weight:700;-webkit-margin-before:1em}div.body h2,div.body h3,div.body h4,div.body h5,h2,h3,h4,h5{color:#d5d5d5;font-weight:700;-webkit-margin-before:1.5em}.single h1{border-bottom:1px solid #424950}.block__body,p{color:#cdcdcd}code{font-weight:700;font-family:Menlo,Consolas,"Liberation Mono",Menlo,Courier,monospace!important}code.descclassname,code.descname,tt.descclassname,tt.descname{color:#cdcdcd;font-weight:700}.single .highlight pre{background-color:#30383c;border:1px solid #2b3033;border-left:5px solid #bcced4}a.headerlink,a.headerlink:hover{border-radius:2px;margin-left:5px;margin-bottom:2px;transition-duration:.2s}table.docutils tbody tr td div.highlight pre{background-color:#272b2f;color:#cdcdcd}.highlight .s,.highlight .s1,.highlight .s2{color:#389cff}.highlight .k,.highlight .kc,.highlight .na{color:#04a732}.highlight .c1{color:#adadad}.single .highlight .s2{color:#45b4ff}.single .highlight .mi{color:#30bb76}.single .highlight .kc{color:#01c339}a,a:hover,div.body div.bc ul li a{color:#77c34e;text-decoration:none}a,div.body div.bc ul li a{transition-duration:.2s}a.navbar-download__text:hover{color:#fff}}
+/* Colors */
+/* line 9, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ div.body h1, h1 { color: #e0e7e8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; font-weight: 700; -webkit-margin-before: 1em; }
+
+/* line 17, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ div.body h2, div.body h3, div.body h4, div.body h5, h2, h3, h4, h5 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; color: #e0e7e8; font-weight: 700; -webkit-margin-before: 1.5em; }
+
+/* line 31, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ .single h1 { border-bottom: 1px solid #424950; }
+
+/* line 35, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ a.headerlink, a.headerlink:hover { border-radius: 2px; margin-left: 5px; margin-bottom: 2px; transition-duration: 0.2s; }
+
+/* line 43, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ table.docutils div.highlight pre, table.docutils tbody tr td div.highlight pre { padding: 5px; border-radius: 5px; background-color: #272b2f; color: #e0e7e8; }
+
+/* line 57, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ a, a:hover, div.body div.bc ul li a { color: #69b241; text-decoration: none; }
+
+/* line 64, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ a, div.body div.bc ul li a { transition-duration: 0.2s; }
+
+/* line 69, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/typography.scss */ a.navbar-download__text:hover { color: #fff; }
+
+/* line 1, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .block__body, p { color: #e0e7e8; }
+
+/* line 6, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ code { font-weight: 700; font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace !important; }
+
+/* line 11, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .code-button { background: #69b241; transition-duration: 0.2s; border-radius: 5px; }
+
+/* line 15, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .code-button:hover { background: #35962b; transition: all 0.2s ease-in-out; }
+
+/* line 21, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .button-row { border-radius: 0 5px 0 0; }
+
+/* line 25, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ code.descclassname, code.descname, tt.descclassname, tt.descname { color: #e0e7e8; font-weight: 700; }
+
+/* line 35, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .single .highlight pre { background-color: #30383c; border: 1px solid #2b3033; border-left: 5px solid #bcced4; font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace !important; }
+
+/* line 44, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ pre, .pre { font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace !important; }
+
+/* line 50, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .copyable-code-block .highlight { background-color: #393d42; }
+
+/* line 55, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .highlight .s, .highlight .s1, .highlight .s2 { color: #389cff; }
+
+/* line 61, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .highlight .k, .highlight .kc, .highlight .na { color: #69b241; }
+
+/* line 67, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .highlight .c1 { color: #adadad; }
+
+/* line 71, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .single .highlight .s2 { color: #45b4ff; }
+
+/* line 75, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .single .highlight .mi { color: #69b241; }
+
+/* line 79, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .single .highlight .kc { color: #69b241; }
+
+/* line 83, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/code-blocks.scss */ .CodeMirror { font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace !important !important; }
+
+/* line 1, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar { background-color: #424950; }
+
+/* line 5, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-dropdown { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; color: #e0e7e8; }
+
+/* line 8, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-dropdown:hover { color: #69b241; }
+
+/* line 13, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-brand { content: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png); }
+
+/* line 17, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-links__item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; color: #69b241; }
+
+/* line 20, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-links__item:hover { color: #e0e7e8; }
+
+/* line 25, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ #breadcrumbs { background-color: #383d41; padding-left: 20px; }
+
+/* line 30, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-dropdown__menu { background-color: #131516; }
+
+/* line 34, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-dropdown__menu--hidden { transition-duration: 0.3s; }
+
+/* line 38, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-dropdown__menu--shown { transition-duration: 0.25s; border-radius: 0 0 10px 10px; }
+
+/* line 43, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .menu__item { border-top: 1px solid #282b30; }
+
+/* line 45, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .menu__item a { color: #69b241; }
+
+/* line 50, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ li.menu__item:hover { color: #d5d5d5; background-color: #272b2f; transition: background-color 0.2s ease-in-out; }
+
+/* line 56, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .menu__item:last-child { border-bottom: none; border-radius: 0 0 10px 10px; }
+
+/* line 61, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .submenu__item > a:hover { color: #d5d5d5; }
+
+/* line 65, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/nav.scss */ .navbar-search { color: #d5d5d5; background-color: #373d42 !important; }
+
+/* line 2, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .marian--shown { background-color: #272b2f; }
+
+/* line 6, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .marian-title, .marian__heading { color: #9aa1a9; font-weight: 700; }
+
+/* line 12, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .marian-preview { color: grey; }
+
+/* line 16, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .marian .tab-strip__element { width: 200px; }
+
+/* line 20, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .marian-results { background-color: #131516; border-radius: 0 10px 10px; margin-top: 0; padding: 20px 0 15px 20px; }
+
+/* line 27, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .spinner, .tab-strip { background-color: #272b2f; }
+
+/* line 32, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .marian-result { padding-right: 32px; }
+
+/* line 36, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tab-strip { margin-bottom: 0; }
+
+/* line 40, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tab-strip__element { border-radius: 7px 7px 0 0; }
+
+/* line 44, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tab-strip__element[aria-selected="true"], .tab-strip__element[aria-selected="true"]:hover { background-color: #69b241; color: #e0e7e8; border: 0.5px solid #69b241; }
+
+/* line 51, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tab-strip__element[aria-selected="false"] { background-color: #3b4047; border: 0.5px solid #3b4047; transition-duration: 0.2s; }
+
+/* line 55, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tab-strip__element[aria-selected="false"]:hover { background-color: #131516; border: 0.5px solid #131516; transition: all 0.2s ease-in-out; }
+
+/* line 63, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-search { border: 2px solid #535658; border-radius: 7px; background-color: #373e42; color: #fff; }
+
+/* line 70, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-list-item { border-radius: 7px; padding: 15px 25px; transition-duration: 0.25s; }
+
+/* line 74, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-list-item:first-child { padding-top: 15px; }
+
+/* line 77, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-list-item:hover { background-color: #131516; transition: background-color 0.25s ease-in-out, box-shadow 0.3s ease-in-out; }
+
+/* line 83, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-list-item__title { color: #bfc7d1; font-weight: 700; }
+
+/* line 88, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-list-item__snippet { color: #afb6c0; transition: color 0.25s ease-in-out; }
+
+/* line 93, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/search.scss */ .tutorial-list-item:hover .tutorial-list-item__title { color: #69b241; }
+
+/* line 1, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .card { background-color: #cde5c2 !important; padding: 0px 15px; border-color: transparent; border-width: 0px; border-left-color: #35962b; border-left-width: 5px; }
+
+/* line 8, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .card.card-large { padding: 0; }
+
+/* line 13, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .card-image { border-radius: 5px 5px 0px 0px; }
+
+/* line 17, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .card-content { color: #212720; }
+
+/* line 19, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .card-content p { color: #212720; }
+
+/* line 26, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource { border: none !important; padding: 0 15px 5px 15px !important; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important; }
+
+/* line 32, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource__path { font-weight: 700; }
+
+/* line 38, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource.apiref-resource--get { background-color: #1c6942; }
+
+/* line 41, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource.apiref-resource--post { background-color: #0d5b82; }
+
+/* line 44, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource.apiref-resource--delete { background-color: #903231; }
+
+/* line 47, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource.apiref-resource--put { background-color: #057077; }
+
+/* line 50, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource.apiref-resource--patch { color: #212720; background-color: #efc666; }
+
+/* line 53, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/stitch.scss */ .apiref-resource.apiref-resource--patch .apiref-resource__summary > p, .apiref-resource.apiref-resource--patch .apiref-resource__body h3, .apiref-resource.apiref-resource--patch .apiref-resource__body > p, .apiref-resource.apiref-resource--patch .apiref-resource__body p span.pre { color: #212720; }
+
+/* line 10, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .button:hover, .card:hover, .navbar-dropdown__menu, .sidebar, .tutorial-list-item:hover { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35), 0 2px 15px 0 rgba(0, 0, 0, 0.5); }
+
+/* line 18, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ html { background-color: #272b2f; }
+
+/* line 22, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .main, .main-content, body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; background: #272b2f; color: #e0e7e8; }
+
+/* line 30, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .sidebar { border: 1px solid #272b2f; }
+
+/* line 34, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .nav-groups { background: #272b2f; }
+
+/* line 38, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .nav-group-name { border-bottom: 1px dotted #25292d; }
+
+/* line 42, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .nav-group-name > a { color: #69b241; }
+
+/* line 46, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .main__sidebar { border-right: none; }
+
+/* line 50, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ table.docutils { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35); background-color: #393d42; margin: 10px; border-radius: 5px; border: 5px solid #393d42; border-style: none; box-sizing: 0px; }
+
+/* line 58, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ table.docutils td { padding: 17px; border-color: #424950; }
+
+/* line 61, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ table.docutils td:nth-child(1) { color: #69b241; font-weight: 700; }
+
+/* line 65, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ table.docutils td span.pre { font-weight: 700; color: #69b241; }
+
+/* line 70, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ table.docutils th { padding: 12px 12px !important; border-color: #424950; }
+
+/* line 76, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ aside.main__sidebar { background-color: #30363a; }
+
+/* line 80, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .content { background: #272b2f; }
+
+/* line 84, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .content .main-column { margin: 40px 50px; }
+
+/* line 88, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .docutils { color: #e0e7e8; }
+
+/* line 92, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ table.docutils.compatibility > thead th.head { background-color: #69b241; }
+
+/* line 96, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ th.head.stub, th.stub { color: #fff !important; background-color: #25292d !important; }
+
+@keyframes fadeOutHighlight { 0% { background-color: #69b241; }
+  100% { background-color: #272b2f; } }
+
+/* line 111, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .highlighted, dt:target { animation: 3s ease-out 0s 1 fadeOutHighlight; background-color: #272b2f; }
+
+/* line 117, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .admonition-instructor { background-color: #25292d; }
+
+/* line 121, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .admonition { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important; }
+
+/* line 122, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .admonition.admonition-platform-support, .admonition.admonition-tip, .admonition.important, .admonition.note, .admonition.tip, .admonition.warning { background-color: #25292d; }
+
+/* line 130, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .admonition.admonition-example { background-color: #25292d; padding: 20px; border-radius: 7px; color: #e0e7e8; }
+
+/* line 139, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .admonition-see.admonition, .alert-info { background-color: #393d42; border-left: 3px solid #428bca !important; padding-top: 5px !important; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important; }
+
+/* line 147, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ div.sphinxsidebarwrapper { background-color: #272b2f; }
+
+/* line 149, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ div.sphinxsidebarwrapper a { color: #e0e7e8; }
+
+/* line 154, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .sphinxsidebarwrapper > ul > .toctree-l1 { border: 1px solid #393d42; color: #e0e7e8; padding: 15px 0; }
+
+/* line 160, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a { background-color: #393d42; }
+
+/* line 164, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .sphinxsidebarwrapper > ul > .toctree-l1:last-child { border-bottom-color: #393d42; }
+
+/* line 168, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ li.current.selected-item.toctree-l1 { border-right: 3px solid #69b241; }
+
+/* line 172, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .dropdown-menu { background-color: #424950; }
+
+/* line 176, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ #closeNav { color: #e0e7e8 !important; }
+
+/* line 180, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ #on-this-page { background-color: #272b2f; padding: 20px; border-radius: 7px; border: 1px solid #424950; }
+
+/* line 187, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .icon-edit:before { color: #7d7c7c; }
+
+/* line 191, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .figure { margin: auto; padding: 15px; border-radius: 5px; background-color: #e0e7e8; max-width: 700px; }
+
+/* line 199, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ div.body div.bc { background-color: #272b2f; }
+
+/* line 203, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .main-content { border: 1px solid #272b2f; }
+
+/* line 207, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .title { border-bottom: 1px solid #424950; }
+
+/* line 211, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .single { padding: 0 40px 40px; }
+
+/* line 215, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ hr { border-top: 1px solid #424950; }
+
+/* line 219, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .toc__item, .toc__item:last-child { border: none; }
+
+/* line 224, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .toc__link { color: #e0e7e8; }
+
+/* line 228, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .toc__link--nested { font-weight: 900; }
+
+/* line 232, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .toc__link--active { background-color: #2e3238; }
+
+/* line 237, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .main__cards .card { margin: 15px 20px 15px 0; padding: 25px 20px 15px 15px; border-left-width: 10px; border-left-color: #35962b; border-left-style: solid; }
+
+/* line 243, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .main__cards .card .card__body { color: #212720; }
+
+/* line 249, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .card { border-radius: 7px; background-color: #202327; }
+
+/* line 254, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .card__title { margin-top: 0; color: #35962b; }
+
+/* line 259, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .button { color: #e0e7e8; background-color: #232629; border-radius: 5px; }
+
+/* line 265, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .button--active { color: #fff !important; }
+
+/* line 269, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .copy-button { background-color: #69b241; border: 1px solid #69b241; border-radius: 0 0 0 5px; }
+
+/* line 275, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .caret, .version-button { color: #e0e7e8; }
+
+/* line 280, Users/juliant/Dropbox/Developer/Websites/mongodb-docs-style/source/sass/dark-theme.scss */ .caret { border-top: 4px solid #fff; }
+
+/*# sourceMappingURL=dark-theme.min.css.map */

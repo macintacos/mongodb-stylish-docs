@@ -6,12 +6,22 @@ the site. If you'd like to follow progress, trello board is below
 
 **Trello Board**: https://trello.com/b/RYD4TRRs
 
+## Latest Update
+
+June 17, 2018 (v0.5 AKA the "Finally" update):
+
+* Took the time to adequately update the docs for Stitch's overhaul; please let me know if there are any big things that I've missed.
+* Transitioned development work to SCSS so that my sanity can be maintained in the future. Still in a state of refactoring at the moment.
+* Fixed a lot of miscellaneous graphical bugs that I didn't really account for previously.
+* _Finally_ compiled a local environment so that I can develop this theme properly. That's not really a external update, but it is pretty nice.
+* Fixed up many code block edge-cases, although the main use still doesn't have a dark theme; I'll get around to it...eventually. Maybe. Don't hold your breath.
+
+## History
+
 December 20, 2017 (v0.4):
 
 * Fixed the Stitch iOS API docs, still needs a tad more work related to code blocks (coming in future update)
 * Other minor updates
-
-## Changelog
 
 December 4, 2017 (v0.3):
 
