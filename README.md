@@ -8,6 +8,12 @@ the site. If you'd like to follow progress, trello board is below
 
 ## Latest Update
 
+June 27, 2018 (v0.6 AKA the "Color" update):
+
+* General changes to the color scheme being used, coming more in-line with the new colors deployed across MongoDB. Shweet.
+
+## History
+
 June 17, 2018 (v0.5 AKA the "Finally" update):
 
 * Took the time to adequately update the docs for Stitch's overhaul; please let me know if there are any big things that I've missed.
@@ -15,8 +21,6 @@ June 17, 2018 (v0.5 AKA the "Finally" update):
 * Fixed a lot of miscellaneous graphical bugs that I didn't really account for previously.
 * _Finally_ compiled a local environment so that I can develop this theme properly. That's not really a external update, but it is pretty nice.
 * Fixed up many code block edge-cases, although the main use still doesn't have a dark theme; I'll get around to it...eventually. Maybe. Don't hold your breath.
-
-## History
 
 December 20, 2017 (v0.4):
 
