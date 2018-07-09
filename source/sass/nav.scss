@@ -1,68 +1,72 @@
 .navbar {
-    background-color: $navbar-color;
+  background-color: $navbar-color;
 }
 
 .navbar-dropdown {
-    font-family: $system-default-font;
-    color: $main-text-color;
-    &:hover {
-        color: $mongodb-green;
-    }
+  font-family: $system-default-font;
+  color: $main-text-color;
+  &:hover {
+    color: $mongodb-green;
+  }
 }
 
 .navbar-brand {
-    content: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png);
+  content: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png);
 }
 
 .navbar-links__item {
-    font-family: $system-default-font;
-    color: $mongodb-green;
-    &:hover {
-        color: $main-text-color;
-    }
+  font-family: $system-default-font;
+  color: $mongodb-green !important;
+  &:hover {
+    color: $main-text-color;
+  }
+}
+
+li.menu__item.menu__item--secondary a {
+  color: $mongodb-green !important;
 }
 
 #breadcrumbs {
-    background-color: #383d41;
-    padding-left: 20px;
+  background-color: #383d41;
+  padding-left: 20px;
 }
 
 .navbar-dropdown__menu {
-    background-color: #131516;
+  background-color: #131516;
 }
 
 .navbar-dropdown__menu--hidden {
-    transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .navbar-dropdown__menu--shown {
-    transition-duration: 0.25s;
-    border-radius: 0 0 10px 10px;
+  transition-duration: 0.25s;
+  border-radius: 0 0 10px 10px;
 }
 
 .menu__item {
-    border-top: 1px solid #282b30;
-    a {
-        color: $mongodb-green;
-    }
+  border-top: 1px solid #282b30;
+  a {
+    color: $mongodb-green;
+  }
 }
 
 li.menu__item:hover {
-    color: #d5d5d5;
-    background-color: $main-background-color;
-    transition: background-color 0.2s ease-in-out;
+  color: #d5d5d5;
+  background-color: $main-background-color;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .menu__item:last-child {
-    border-bottom: none;
-    border-radius: 0 0 10px 10px;
+  border-bottom: none;
+  border-radius: 0 0 10px 10px;
 }
 
-.submenu__item>a:hover {
-    color: #d5d5d5;
+.submenu__item > a:hover {
+  color: #d5d5d5;
 }
 
 .navbar-search {
-    color: #d5d5d5;
-    background-color: #373d42 !important;
+  color: #d5d5d5;
+  background-color: #373d42 !important;
 }

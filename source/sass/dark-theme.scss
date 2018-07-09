@@ -5,6 +5,14 @@
 @import "nav";
 @import "search";
 @import "stitch";
+@mixin appropriate-table-color() {
+  @if content=="✓" {
+    color: $mongodb-green;
+  }
+  @else {
+    // color: ;
+  }
+}
 
 // OTHER
 .button:hover,
@@ -39,7 +47,7 @@ body {
   border-bottom: 1px dotted $admonition-background-color;
 }
 
-.nav-group-name > a {
+.nav-group-name>a {
   color: $mongodb-green;
 }
 
@@ -56,6 +64,7 @@ table.docutils {
   border-style: none;
   box-sizing: 0px;
   td {
+    color: $main-text-color;
     padding: 17px;
     border-color: $dark-border-color;
     &:nth-child(1) {
@@ -70,6 +79,13 @@ table.docutils {
   th {
     padding: 12px 12px !important;
     border-color: $dark-border-color;
+  }
+  tbody {
+    tr {
+      &:last-child {
+        border: none;
+      }
+    }
   }
 }
 
@@ -89,7 +105,8 @@ aside.main__sidebar {
   color: $main-text-color;
 }
 
-table.docutils.compatibility > thead th.head {
+table.docutils.compatibility>thead th.head,
+table.docutils.compatibility-large>thead th.head {
   background-color: $mongodb-green;
 }
 
@@ -119,6 +136,7 @@ dt:target {
 }
 
 .admonition {
+  background-color: $admonition-background-color;
   &.admonition-platform-support,
   &.admonition-tip,
   &.important,
@@ -126,6 +144,9 @@ dt:target {
   &.tip,
   &.warning {
     background-color: $admonition-background-color;
+    .admonition-title {
+      color: $mongodb-green;
+    }
   }
   &.admonition-example {
     background-color: $admonition-background-color;
@@ -133,7 +154,13 @@ dt:target {
     border-radius: 7px;
     color: $main-text-color;
   }
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35) !important;
+  &.admonition-platform-support,
+  &.admonition-tip,
+  &.note,
+  &.tip {
+    border-color: $mongodb-green;
+  }
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.35) !important;
 }
 
 .admonition-see.admonition,
@@ -149,19 +176,25 @@ div.sphinxsidebarwrapper {
   a {
     color: $main-text-color;
   }
+  .toctree-l1 li.current.selected-item>a>.expand-icon {
+    color: $mongodb-light-green;
+    background-image: none !important;
+  }
 }
 
-.sphinxsidebarwrapper > ul > .toctree-l1 {
+.sphinxsidebarwrapper>ul>.toctree-l1 {
   border: 1px solid $section-wrapper-background-color;
   color: $main-text-color;
   padding: 15px 0;
 }
 
-.sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a {
+.sphinxsidebarwrapper .toctree-l1 li.current.selected-item>a {
   background-color: $section-wrapper-background-color;
+  color: $mongodb-green;
+  border-right-color: $mongodb-green;
 }
 
-.sphinxsidebarwrapper > ul > .toctree-l1:last-child {
+.sphinxsidebarwrapper>ul>.toctree-l1:last-child {
   border-bottom-color: $section-wrapper-background-color;
 }
 
@@ -231,14 +264,16 @@ hr {
 
 .toc__link--active {
   background-color: #2e3238;
+  border-right-color: $mongodb-green;
 }
 
+// CARD SPECIFICATIONS
 .main__cards {
   .card {
     margin: 15px 20px 15px 0;
     padding: 25px 20px 15px 15px;
     border-left-width: 10px;
-    border-left-color: $mongodb-darker-green;
+    border-left-color: $mongodb-green;
     border-left-style: solid;
     .card__body {
       color: $main-text-color-invert;
@@ -253,9 +288,14 @@ hr {
 
 .card__title {
   margin-top: 0;
-  color: $mongodb-darker-green;
+  color: $mongodb-green;
 }
 
+.card__icon {
+  color: $mongodb-green;
+}
+
+// BUTTONS
 .button {
   color: $main-text-color;
   background-color: #232629;
@@ -279,4 +319,9 @@ hr {
 
 .caret {
   border-top: 4px solid #fff;
+}
+
+.deluge {
+  background-color: $mongodb-green;
+  background: radial-gradient( circle at 46% 65%, $mongodb-green, $mongodb-green);
 }
